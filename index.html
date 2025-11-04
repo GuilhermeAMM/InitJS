@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>WEB GLOBAL HOST</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body onload="alert('Página carregada')">
+    <h1>Aprendendo JS</h1>
+    <p id="texto"></p>
+    <p>
+      <script>
+        document.write("Documente escrito com Write");
+      </script>
+    </p>
+    <p>
+      <script>
+        document.write(10 + 10);
+      </script>
+    </p>
+    <script src="js/script.js"></script>
+
+    <p><button onclick="eventoClick()">Clique Aqui</button></p>
+    <p><button ondblclick="eventodbClick()">Clique Aqui Duplo</button></p>
+    <p>
+      <input
+        id="texo"
+        style="padding: 80px; font-size: 40px"
+        type="text"
+        placeholder="Digite algo"
+      />
+    </p>
+  </body>
+</html>
