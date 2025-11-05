@@ -6,7 +6,7 @@ function minhafuncao(){
 let a,b,c;
 a=5;
 b=10;
-c=15;    
+c=20;    
 document.write(10+10);
 }
 
